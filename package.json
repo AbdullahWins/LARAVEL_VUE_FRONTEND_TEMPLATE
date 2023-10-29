@@ -16,6 +16,8 @@
     },
     "dependencies": {
         "@vitejs/plugin-vue": "^4.4.0",
+        "swiper": "^11.0.3",
+        "video.js": "^8.6.1",
         "vue": "^3.2.36",
         "vue-router": "^4.2.5"
     }

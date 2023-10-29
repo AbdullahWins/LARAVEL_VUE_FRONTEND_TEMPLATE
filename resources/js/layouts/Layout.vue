@@ -1,7 +1,6 @@
 <template>
-    <div
-        class="h-screen w-full overflow-hidden flex items-start bg-slate-100 font-poppins"
-    >
+    <div>
+        <p class="text-center">Layout</p>
         <div>
             <router-view></router-view>
         </div>

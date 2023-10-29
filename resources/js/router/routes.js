@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Layout from "../layouts/Layout.vue";
 import Home from "../pages/Home.vue";
-import Home2 from "../pages/Home2.vue";
+import VideoStream from "../pages/VideoStream.vue";
+import Swiper from "../pages/Swiper.vue";
 
 const routes = [
     {
@@ -10,14 +11,18 @@ const routes = [
         children: [
             {
                 path: "/",
-                component: Home,
+                component: VideoStream,
+            },
+            {
+                path: "/swiper",
+                component: Swiper,
             },
         ],
     },
     // others routing
     {
         path: "/:catchAll(.*)",
-        component: Home2,
+        component: Home,
     },
 ];
 

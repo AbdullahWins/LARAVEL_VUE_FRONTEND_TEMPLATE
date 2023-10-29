@@ -1,8 +1,6 @@
 <template>
-    <div
-        class="h-screen w-full overflow-hidden flex items-start bg-slate-100 font-poppins"
-    >
-        <p>hom2</p>
+    <div class="bg-slate-100 font-poppins w-full">
+        <p class="text-center">home page</p>
     </div>
 </template>
 
